@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    display: flex;
+    background-color: rgba(0,0,0, 0.7);
+    /* opacity: 0.6; */
+    justify-content: space-between;
+    height: 65px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#logo-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#circles {
+    display: flex;
+    gap: 3px;
+}
+.circle-1 {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} 
+.circle-2 {
+    background-color: #FF0084;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} 
+
+#logo-name {
+    font-size: 27px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-family: "Proxima Nova", "helvetica neue", helvetica, arial, sans-serif;
+}
+
+#login-container {
+    display: flex;
+    font-family: "Proxima Nova", "helvetica neue", helvetica, arial, sans-serif;
+    color: white;
+}
+
+#login-signup-right {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+a,li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+}
+
+.signup {
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    padding: 7.5px 10px 15px 20px; 
+    border-radius: 5px;
+}
+
+.signup a {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
