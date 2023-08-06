@@ -74,8 +74,34 @@ a,li {
     border-radius: 5px;
 }
 
+.searchbar-form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 16.25px;
+    width: 1325px;
+    height: 33px;
+    background-color: white;
+
+}
+
+.searchbar-area {
+    border: 1px solid white;
+}
+
+
 .signup a {
     color: black;
     font-weight: 600;
     font-size: 15px;
+}
+
+.searchbar-form button{
+    cursor: pointer;
+    color: rgba(0,0,0, 0.7);
+    padding: 10px;
+    background: white;
+    font-size: 10px;
+    border: 1px solid transparent;
 }
