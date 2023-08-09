@@ -8,7 +8,6 @@
 #header {
     display: flex;
     background-color: rgba(0,0,0, 0.7);
-    /* opacity: 0.6; */
     justify-content: space-between;
     height: 65px;
     padding-right: 25px;
@@ -80,9 +79,10 @@ a,li {
     justify-content: flex-end;
     align-items: center;
     margin-top: 16.25px;
-    width: 1325px;
+    width: 1360px;
     height: 33px;
     background-color: white;
+    border-radius: 5px;
 
 }
 
@@ -100,8 +100,9 @@ a,li {
 .searchbar-form button{
     cursor: pointer;
     color: rgba(0,0,0, 0.7);
-    padding: 10px;
+    padding: 2px 8px 2px 11px;
     background: white;
-    font-size: 10px;
+    font-size: 20px;
     border: 1px solid transparent;
+    border-radius: 5px;
 }
