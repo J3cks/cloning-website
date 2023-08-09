@@ -209,3 +209,93 @@ a,li {
     color: white;
 }
 
+#credits {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Proxima Nova", "helvetica neue", helvetica, arial, sans-serif;
+}
+
+#credits p {
+    margin-top: 8px;
+}
+.cc-1, .cc-2, .cc-3, .cc-4, .cc-5{
+    text-align: center;
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.cc-1{
+	animation-name: c-anim-1;
+}
+.cc-2{
+	animation-name: c-anim-2;
+}
+.cc-3{
+	animation-name: c-anim-3;
+}
+.cc-4{
+	animation-name: c-anim-4;
+}
+.cc-5{
+	animation-name: c-anim-5;
+}
+
+@keyframes c-anim-1 {
+    0%, 20% {
+        opacity: 1;
+    }
+    20%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes c-anim-2 {
+    0%, 19% {
+        opacity: 0;
+    }
+    20%, 40% {
+        opacity: 1;
+    }
+    41%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes c-anim-3 {
+    0%, 40% {
+        opacity: 0;
+    }
+    41%, 60% {
+        opacity: 1;
+    }
+    61%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes c-anim-4 {
+    0%, 60% {
+        opacity: 0;
+    }
+    61%, 80% {
+        opacity: 1;
+    }
+    81%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes c-anim-5 {
+    0%, 80% {
+        opacity: 0
+    }
+    81%, 100% {
+        opacity: 1;
+    }
+}
